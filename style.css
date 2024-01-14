@@ -1,0 +1,93 @@
+*{
+    font-family: "Lato", sans-serif;
+}
+div.frame{
+    width: 860px;
+    margin: 0px auto;
+    padding: 50px;
+}
+
+body{
+    background-size: 250px;
+    background-repeat: repeat-x repeat-y;
+    background-image: url("caniuse-bg.png");
+}
+
+nav{
+    width: 850px;
+    height: 52px;
+    margin: 0px;
+    white-space: nowrap;
+    margin-bottom: 20px;
+
+}
+
+
+nav >  p {
+    display: inline-block;
+    padding: 0px;
+    margin-top: 0px;
+    padding: 15px;
+    font-size: 18px;
+    background-color: rgba(226, 226, 226, 0.185);
+    color: white;
+    
+}
+nav > p.link{
+    margin-left: 450px;
+    vertical-align: top;
+}
+
+main {
+    height: 85px;
+    width: 870px;
+    margin: 0px;
+    background-color: #C84F00;
+    color: white;
+    padding: 0px;
+    font-size: 27px;
+    font-weight: 300;
+}
+
+main > p{
+    margin-left: 190px;
+}
+main > p, main > form{
+    display: inline-block;
+}
+
+main > form > input{
+    margin: 0px 5px 0px 5px;
+}
+
+main > form > input {
+    background-color: #C84F00;
+    border-top: #C84F00;
+    border-left: #C84F00;
+    border-right: #C84F00;
+    border-bottom:1px solid white;
+    text-align: center;
+    font-size: 27px;
+    width: 355px;
+    color: white;
+    font-weight: 300;
+}
+
+article{
+    width: 830px;
+    background-color: #F2E9D6;
+    padding: 20px;
+    margin-top: 30px;
+    height: 600px;
+}
+
+p#title{
+    color: #000000;
+    font-size: 40px;
+    margin: 0px 0px 20px 0px;
+}
+
+article  > p {
+    font-size: 20px;
+    margin: 10px 0px ;
+}
